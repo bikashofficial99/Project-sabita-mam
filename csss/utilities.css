@@ -1,0 +1,48 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.4rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    
+}
+.btn-primary{
+    background-color: turquoise;
+
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: turquoise;
+    color: turquoise;
+}
+.btn-secondary{
+    background: transparent;
+    color: turquoise;
+    border-color:turquoise
+}
+.btn-secondary:hover{
+    background-color: turquoise;
+    color: black;
+}
+.justify-right{
+    justify-content: right;
+}
+
+
+
+
+
+
+
